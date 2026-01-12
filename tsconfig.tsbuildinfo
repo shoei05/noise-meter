@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/decibeldisplay.tsx","./src/components/levelmeter.tsx","./src/components/realtimechart.tsx","./src/hooks/useaudiometer.ts"],"version":"5.9.3"}
