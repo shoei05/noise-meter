@@ -37,14 +37,15 @@ export function DecibelDisplay({ recentStats }: Props) {
       {/* 最小・最大を小さく表示 */}
       <div className="flex justify-center gap-8 mt-4 text-sm">
         <div className="text-center">
-          <div className="text-gray-500">10秒最小</div>
+          <div className="text-gray-500">最小</div>
           <div className="text-lg font-semibold text-green-400">{min.toFixed(1)}</div>
         </div>
         <div className="text-center">
-          <div className="text-gray-500">10秒最大</div>
+          <div className="text-gray-500">最大</div>
           <div className="text-lg font-semibold text-red-400">{max.toFixed(1)}</div>
         </div>
       </div>
+      <div className="text-xs text-gray-600 mt-2">直近10秒</div>
     </div>
   )
 }
